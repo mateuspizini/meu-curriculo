@@ -30,7 +30,4 @@ Tenho experiência com **C#, C++, Python, HTML, CSS, JavaScript, React** e consu
   </a>
   {% endfor %}
 </div>
-
-{% if items.size == 0 %}
-<p>Nenhum projeto publicado ainda.</p>
 {% endif %}
