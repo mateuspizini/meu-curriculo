@@ -3,7 +3,7 @@ layout: home
 title: "Currículo"
 ---
 
-> Olá! Sou **{{ site.author.name }}**, {{ site.author.role }}.  
+> Olá! Sou o **{{ site.author.name }}**, {{ site.author.role }}.  
 Tenho experiência com **C#, C++, Python, HTML, CSS, JavaScript, React** e consumo de **APIs REST**.
 
 ## Habilidades
