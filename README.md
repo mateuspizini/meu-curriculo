@@ -1,45 +1,28 @@
-# 🌐 Currículo Online
+# 🌐 Meu Currículo — Jekyll no GitHub Pages
 
-Este é o meu currículo em formato de página web, desenvolvido com **HTML e CSS**.  
-O objetivo do projeto é apresentar minhas informações de forma simples, responsiva e acessível, além de servir como portfólio inicial para oportunidades como **Desenvolvedor Front-end Júnior**.
+Currículo/portfólio minimalista, **moderno e responsivo**, feito com **Jekyll** e publicado no **GitHub Pages**.  
+Conteúdo em **Markdown** (`index.md`) e dados em **YAML** (`_data/skills.yml`, `_data/socials.yml`), com layout sleek e fácil de manter.
 
-🔗 [Acesse aqui a versão online](https://pirulizas.github.io/meu-curriculo/)
-
----
-
-## 🚀 Tecnologias Utilizadas
-- **HTML5** para estrutura da página  
-- **CSS3** para estilização e responsividade  
-- Hospedagem no **GitHub Pages**
+🔗 **Live**: https://pirulizas.github.io/meu-curriculo
 
 ---
 
-## 📋 Funcionalidades
-- Seção *Sobre mim* com breve descrição  
-- Seção *Habilidades* listando conhecimentos técnicos  
-- Seção *Contato* com links diretos para LinkedIn e GitHub  
+## ✨ Destaques
+
+- Visual **sleek** com o tema oficial **Cayman** + toques customizados.
+- **Conteúdo editável** sem mexer em HTML (Markdown + YAML).
+- Seção de **habilidades** em chips e **links sociais** em botões pill.
+- Coleção de **projetos** com cards automáticos (opcional).
+- Deploy automático no **GitHub Pages**.
 
 ---
 
-## 📸 Demonstração
-![Preview do site](https://via.placeholder.com/800x400.png?text=Preview+do+Curriculo+Online)
+## 🧰 Tecnologias
+
+- Jekyll (GitHub Pages)
+- Tema: `pages-themes/cayman@v0.2.0`
+- Markdown (kramdown/GFM)
+- YAML Data
+- SCSS para ajustes visuais
 
 ---
-
-## 📌 Como acessar
-1. Abra o link: [Currículo Online](https://pirulizas.github.io/meu-curriculo/)  
-2. Navegue pelas seções para conhecer minhas habilidades e contatos.  
-
----
-
-## 🛠️ Como rodar localmente
-Caso queira clonar este projeto e visualizar em sua máquina:
-```bash
-# Clonar o repositório
-git clone https://github.com/seuusuario/meu-curriculo.git
-
-# Acessar a pasta
-cd meu-curriculo
-
-# Abrir o arquivo no navegador
-start index.html
