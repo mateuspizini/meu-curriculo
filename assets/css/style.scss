@@ -4,6 +4,32 @@
 /* importa o tema Cayman */
 @import "{{ site.theme }}";
 
+/* Accordion / collapse */
+.accordion { margin-top: 1rem; }
+
+.acc {
+  background:#fff; border:1px solid #e5e7eb; border-radius:14px;
+  margin:.75rem 0; overflow:hidden; box-shadow:0 8px 24px rgba(2,6,23,.06);
+}
+
+.acc > summary {
+  cursor:pointer; list-style:none; padding:1rem 1.1rem; position:relative;
+  display:flex; flex-direction:column; gap:.25rem;
+}
+.acc > summary::-webkit-details-marker { display:none; }
+.acc > summary::after {
+  content:"▸"; position:absolute; right:1rem; top:1rem; font-weight:700;
+  transition:transform .2s ease;
+}
+.acc[open] > summary::after { transform:rotate(90deg); }
+
+.acc-title { font-weight:800; color:#0f172a; }
+.acc-meta  { color:#64748b; font-size:.92rem; }
+
+.acc-body { padding:0 1.1rem 1rem; color:#334155; }
+.acc-body ul { margin:.4rem 0 0 1.1rem; }
+
+
 /* seus ajustes "sleek" */
 .page { background: #f8fafc; color: #0f172a; }
 .container { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
