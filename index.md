@@ -22,7 +22,7 @@ Tenho experiência com **Python, C#, C++, HTML, CSS, JavaScript, React** e consu
 
 ## Currículo
 
-<div class="accordion">
+<div class="accordion" markdown="1">
 
 ### Educação
 {% for ed in site.data.resume.education %}
@@ -78,7 +78,6 @@ Tenho experiência com **Python, C#, C++, HTML, CSS, JavaScript, React** e consu
 {% endif %}
 
 </div>
-
 
 {% if site.projects and site.projects.size > 0 %}
 ## Projetos
