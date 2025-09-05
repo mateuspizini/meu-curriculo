@@ -1,9 +1,0 @@
----
----
-@import "{{ site.theme }}";
-.chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
-.chips li{background:#e2e8f0;border-radius:999px;padding:.5rem .75rem;font-weight:600}
-.socials{display:flex;flex-wrap:wrap;gap:.6rem}
-.btn{display:inline-block;text-decoration:none;padding:.6rem 1rem;border-radius:999px;background:#3b82f6;color:#fff;font-weight:700}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
-.card{display:block;padding:1rem;border-radius:14px;background:#fff;text-decoration:none;color:inherit;box-shadow:0 8px 24px rgba(2,6,23,.06)}
