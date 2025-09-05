@@ -68,7 +68,7 @@ Tenho experiência com **Python, C#, C++, HTML, CSS, JavaScript, React** e consu
 {% endif %}
 
 {% if site.data.resume.languages %}
-### Idiomas
+### Outros
 <details class="acc">
   <summary>
     <span class="acc-title">Idiomas</span>
