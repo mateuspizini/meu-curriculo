@@ -9,7 +9,7 @@ Conteúdo em **Markdown** (`index.md`) e dados em **YAML** (`_data/skills.yml`, 
 
 ## ✨ Destaques
 
-- Visual **sleek** com o tema oficial **Cayman** + toques customizados.
+- Visual com o tema oficial **Cayman** + toques customizados.
 - **Conteúdo editável** sem mexer em HTML (Markdown + YAML).
 - Seção de **habilidades** em chips e **links sociais** em botões pill.
 - Coleção de **projetos** com cards automáticos (opcional).
