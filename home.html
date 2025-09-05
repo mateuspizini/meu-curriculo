@@ -1,32 +1,19 @@
----
-# Layout principal da home (usa o CSS do tema + nosso)
----
-
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} · {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    {%- seo -%}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body class="page">
-    <header class="hero">
-      <img class="avatar" src="{{ site.author.avatar_url }}" alt="{{ site.author.name }}">
-      <h1>{{ site.author.name }}</h1>
-      <p class="role">{{ site.author.role }}</p>
-      <p class="desc">{{ site.description }}</p>
-    </header>
-
-    <main class="container">
-      <article class="content">
-        {{ content }}
-      </article>
-    </main>
-
-    <footer class="footer">
-      <small>© {{ site.time | date: '%Y' }} {{ site.author.name }} · Hospedado no GitHub Pages</small>
-    </footer>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="page">
+  <header class="hero">
+    <img class="avatar" src="{{ site.author.avatar_url }}" alt="{{ site.author.name }}">
+    <h1>{{ site.author.name }}</h1>
+    <p class="role">{{ site.author.role }}</p>
+    <p class="desc">{{ site.description }}</p>
+  </header>
+  <main class="container"><article class="content">{{ content }}</article></main>
+  <footer class="footer"><small>© {{ site.time | date: '%Y' }} {{ site.author.name }}</small></footer>
+</body>
 </html>
