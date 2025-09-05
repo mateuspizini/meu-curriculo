@@ -17,5 +17,5 @@ permalink: /projetos/react-native-character-sheet/
 - **Arquitetura:** componentes + hooks; serviços de storage; navegação por telas.
 - **Boas práticas:** versionamento com Git/GitHub e README objetivo.
 
-🔗 **Repositório:** https://github.com/pirulizas/react-native-character-sheet
+🔗 **Repositório:** https://github.com/mateuspizini/react-native-character-sheet
 </details>
