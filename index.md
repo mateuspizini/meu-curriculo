@@ -1,10 +1,14 @@
 ---
-layout: home
+layout: default
 title: "Currículo"
 ---
 
-> Olá! Sou o **{{ site.author.name }}**, {{ site.author.role }}.  
-Tenho experiência com **C#, C++, Python, HTML, CSS, JavaScript, React** e consumo de **APIs REST**.
+<header class="hero">
+  <img class="avatar" src="{{ site.author.avatar_url }}" alt="{{ site.author.name }}">
+  <h1>{{ site.author.name }}</h1>
+  <p class="role">{{ site.author.role }}</p>
+  <p class="desc">{{ site.description }}</p>
+</header>
 
 ## Habilidades
 <ul class="chips">
@@ -20,14 +24,13 @@ Tenho experiência com **C#, C++, Python, HTML, CSS, JavaScript, React** e consu
 {% endfor %}
 </div>
 
-{% if site.projects and site.projects.size > 0 %}
 ## Projetos
 <div class="cards">
-  {% for p in site.projects %}
-  <a class="card" href="{{ p.url | relative_url }}">
-    <h3>{{ p.title }}</h3>
-    <p>{{ p.excerpt | strip_html | truncate: 120 }}</p>
-  </a>
+  {% assign items = site.projects | sort: 'title' %}
+  {% for p in items %}
+    <a class="card" href="{{ p.url | relative_url }}">
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.excerpt | default: p.content | strip_html | truncate: 120 }}</p>
+    </a>
   {% endfor %}
 </div>
-{% endif %}
