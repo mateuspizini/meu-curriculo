@@ -1,0 +1,31 @@
+<!-- _layouts/home.html -->
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=1' | relative_url }}">
+  </head>
+
+  <body class="page">
+    <header class="hero">
+      {% if site.author.avatar_url %}
+        <img class="avatar" src="{{ site.author.avatar_url }}" alt="{{ site.author.name | default: site.title }}">
+      {% endif %}
+      <h1>{{ site.author.name | default: site.title }}</h1>
+      {% if site.author.role %}<p class="role">{{ site.author.role }}</p>{% endif %}
+      {% if site.description %}<p class="desc">{{ site.description }}</p>{% endif %}
+    </header>
+
+    <main class="container">
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="footer">
+      <small>© {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }} · GitHub Pages</small>
+    </footer>
+  </body>
+</html>
