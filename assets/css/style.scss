@@ -4,23 +4,17 @@
 /* importa o tema Cayman */
 @import "{{ site.theme }}";
 
-.foto {
-  width: 150px;         /* tamanho do oval */
-  height: 200px;        /* tamanho do oval */
-  border-radius: 50%;   /* deixa oval */
-  object-fit: cover;    /* recorta sem distorcer */
-  object-position: center; /* centraliza o rosto */
-}
-
 /* seus ajustes "sleek" */
 .page { background: #f8fafc; color: #0f172a; }
 .container { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
 
 .hero { text-align: center; padding: 3rem 1rem; }
 .hero .avatar {
-  width: 112px; height: 112px; border-radius: 50%;
-  box-shadow: 0 8px 30px rgba(0,0,0,.08);
-  margin-bottom: .75rem;
+  width: 150px;         /* tamanho do oval */
+  height: 200px;        /* tamanho do oval */
+  border-radius: 50%;   /* deixa oval */
+  object-fit: cover;    /* recorta sem distorcer */
+  object-position: center; /* centraliza o rosto */
 }
 .hero .role { color: #475569; font-weight: 600; margin: .25rem 0; }
 .hero .desc { color: #64748b; }
