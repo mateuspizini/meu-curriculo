@@ -1,0 +1,84 @@
+education:
+  - course: Análise e Desenvolvimento de Sistemas
+    school: Estácio
+    location: São José dos Campos, SP
+    start: 2025
+    end: atual
+    highlights:
+      - Foco em Agentes Pessoais de I.A.
+      - Projetos com Python, HTML, CSS, JS e React
+
+course: Informática e Programação
+    school: ETEP - Escola Técnica Everardo Passos
+    location: São José dos Campos, SP
+    start: 2008
+    end: 2010
+    highlights:
+      - C#, C++, Front-end
+      - MySql, Banco de Dados
+
+experience:
+  - role: Desenvolvedor full-stack Júnior
+    company: Projeto Pessoal — Portfólio
+    location: Remoto
+    start: 2023
+    end: atual
+    description: Construo interfaces com HTML, CSS e JavaScript (SPA em React) e mobile com React Native. No back-end, atuo com Node.js, Prisma ORM e PostgreSQL (modelagem, migrações e consumo/exposição de APIs REST). Organizo código em monorepos com pnpm, versiono com Git/GitHub (branches, PRs) e publico sites estáticos via GitHub Pages + Jekyll.
+Tenho experiência prática em automação com n8n (self-hosted em Linux/Ubuntu) — webhooks, RSS, filtros e integrações — e em bots de Discord. No dia a dia, foco em clareza de código, commits pequenos e documentação enxuta.
+    highlights:
+      - Front-end: HTML5, CSS3, JavaScript (ES6+), React (componentes, hooks), responsividade.
+      - Mobile: React Native (fundamentos).
+      - Back-end: Node.js, Prisma ORM, PostgreSQL, REST (consumo e criação).
+      - DevOps & Publição: Git/GitHub (branches/PRs), GitHub Pages, Jekyll; noções de Linux/Ubuntu, DNS dinâmico (DuckDNS) e proxy/HTTPS.
+      - Automação & Integrações: n8n (self-hosted), webhooks, RSS, filtros e roteamento de dados.
+      - Bots & Chat: bot de Discord (JavaScript).
+      - Ferramentas: pnpm (monorepo), Prisma Migrate.
+
+  - role: Co-Fundador
+    company: A.L. Pizini Instrumentos Musicais
+    location: São José dos Campos/SP
+    start: 2017
+    end: 2023
+    description: Co-criador de uma empresa para distribuição e revenda de equipamentos importados, negociando com clientes do Brasil inteiro e fornecedores do EUA, China, Letônia, Japão, Alemanha, Italia e Reino Unido. 
+    Responsável pela gestão e manutenção do site, incluindo a atualização de produtos, promoções e interface de usuário. Coordenação da logística de importação e distribuição e entrega dos produtos. 
+    Verificação e garantia da qualidade dos produtos recebidos e enviados e monitoramento das redes sociais e do mercado para identificar oportunidades de crescimento e melhorias nos processos.
+    highlights:
+      - Ingles diário para comunicação com parceiros e fornecedores.
+      - Conhecimento com tráfego pago, impulsionamento de vendas, funil, gestão de plataformas webmarket como MercadoLivre e OLX.
+
+  - role: Cadista
+    company: Carla Sampaio Arquitetura
+    location: São José dos Campos/SP
+    start: 2012
+    end: 2017
+    description: Projetista e Cadista, responsável por elevações, projetos, visita a clientes, atualização e manutenção de todos os desenhos e documentos técnicos relacionados aos projetos,
+    criação de projetos em 2D e 3D utilizando software CAD para visualização precisa e detalhada.
+    highlights:
+      - Uso de softwares da Adobe, inclusive os de edição de video.
+      - Vínculo do uso inteligente de automação na arquitetura inclusive, criando um pequeno projeto em Raspberry PI
+
+- role: Vendedor
+    company: Toque Final Revestimentos
+    location: São José dos Campos/SP
+    start: 2011
+    end: 2012
+    description: Vendedor e Cadista, responsável pela venda direta com cliente e paginação dos revestimentos, atendimento personalizado
+    highlights:
+      - Conversa com cliente final.
+      - Venda de produtos em atacado e varejo.
+
+certifications:
+  - name: AutoCAD
+    org: Solidway
+    year: 2011
+  - name: Google Sketchup
+    org: Solidway
+    year: 2012
+  - name: Revit
+    org: Solidway
+    year: 2012
+
+languages:
+  - Português (nativo)
+  - Inglês (avançado)
+  - Italiano (básico)
