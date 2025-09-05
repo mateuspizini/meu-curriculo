@@ -20,5 +20,3 @@ Bot de Discord que simula um **taverneiro NPC** para mesas de RPG:
 - `/roll 1d20+5` – rolagem com bônus e descrição
 - **Contexto** por canal e jogador (memória curta)
 - **Logs básicos** (join/leave, erros, uso de comandos)
-
-### Arquitetura (resumo)
