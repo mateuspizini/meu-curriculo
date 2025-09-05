@@ -1,7 +1,6 @@
--Frontend (HTML, CSS, JavaScript, React, React Native)
--Backend (Node.js, TypeScript, Express, Prisma ORM)
--Banco de Dados (PostgreSQL)
--APIs )REST, integração de APIs externas)
--DevOps & Automação (n8n (servidor pessoal), Git, GitHub, pnpm)
--Bots e Automação (Desenvolvimento de bot para Discord, scraping básico)
--Outros (Modelagem de dados, arquitetura SaaS, deploy em servidores pessoais)
+- HTML5
+- CSS3 (Flexbox/Grid)
+- JavaScript (ES6+)
+- React (Hooks)
+- Git & GitHub
+- APIs REST
