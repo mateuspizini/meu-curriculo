@@ -3,7 +3,7 @@
 Este é o meu currículo em formato de página web, desenvolvido com **HTML e CSS**.  
 O objetivo do projeto é apresentar minhas informações de forma simples, responsiva e acessível, além de servir como portfólio inicial para oportunidades como **Desenvolvedor Front-end Júnior**.
 
-🔗 [Acesse aqui a versão online](https://seuusuario.github.io/curriculo/)
+🔗 [Acesse aqui a versão online](https://pirulizas.github.io/meu-curriculo/)
 
 ---
 
