@@ -3,7 +3,7 @@
 Currículo/portfólio minimalista, **moderno e responsivo**, feito com **Jekyll** e publicado no **GitHub Pages**.  
 Conteúdo em **Markdown** (`index.md`) e dados em **YAML** (`_data/skills.yml`, `_data/socials.yml`), com layout sleek e fácil de manter.
 
-🔗 **Live**: https://pirulizas.github.io/meu-curriculo
+🔗 **Live**: https://mateuspizini.github.io/meu-curriculo
 
 ---
 
