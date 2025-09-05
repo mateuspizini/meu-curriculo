@@ -27,7 +27,7 @@ O objetivo do projeto é apresentar minhas informações de forma simples, respo
 ---
 
 ## 📌 Como acessar
-1. Abra o link: [Currículo Online](https://seuusuario.github.io/curriculo/)  
+1. Abra o link: [Currículo Online](https://pirulizas.github.io/meu-curriculo/)  
 2. Navegue pelas seções para conhecer minhas habilidades e contatos.  
 
 ---
@@ -36,10 +36,10 @@ O objetivo do projeto é apresentar minhas informações de forma simples, respo
 Caso queira clonar este projeto e visualizar em sua máquina:
 ```bash
 # Clonar o repositório
-git clone https://github.com/seuusuario/curriculo.git
+git clone https://github.com/seuusuario/meu-curriculo.git
 
 # Acessar a pasta
-cd curriculo
+cd meu-curriculo
 
 # Abrir o arquivo no navegador
 start index.html
